@@ -1,0 +1,80 @@
+{{ define "main" }}
+
+<style>
+.gallery {
+  column-count: 3;
+  column-gap: 20px;
+  padding-top: 20px;
+}
+
+@media (max-width: 900px) {
+  .gallery {
+    column-count: 2;
+  }
+}
+
+@media (max-width: 600px) {
+  .gallery {
+    column-count: 1;
+  }
+}
+
+.card {
+  break-inside: avoid;
+  margin-bottom: 20px;
+  border-radius: 16px;
+  overflow: hidden;
+  background: white;
+  box-shadow: 0 6px 30px rgba(0,0,0,0.08);
+  transition: transform 0.25s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+}
+
+.card img {
+  width: 100%;
+  display: block;
+}
+
+.card-content {
+  padding: 14px;
+}
+
+.card h3 {
+  margin: 0;
+}
+
+.card p {
+  opacity: 0.7;
+  font-size: 14px;
+}
+</style>
+
+<div class="gallery">
+
+{{ range .Pages }}
+
+<div class="card">
+
+<a href="{{ .RelPermalink }}">
+
+{{ with .Params.cover.image }}
+<img src="{{ . }}">
+{{ end }}
+
+<div class="card-content">
+<h3>{{ .Title }}</h3>
+<p>{{ .Params.summary }}</p>
+</div>
+
+</a>
+
+</div>
+
+{{ end }}
+
+</div>
+
+{{ end }}

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on My New Hugo Project</title>
+    <link>https://example.org/posts/</link>
+    <description>Recent content in Posts on My New Hugo Project</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 01 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My First Project</title>
+      <link>https://example.org/posts/test/</link>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://example.org/posts/test/</guid>
+      <description>&lt;h2 id=&#34;about-this-project&#34;&gt;About this project&lt;/h2&gt;
+&lt;p&gt;This is my first portfolio project.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Design&lt;/li&gt;
+&lt;li&gt;Creation&lt;/li&gt;
+&lt;li&gt;Presentation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;result&#34;&gt;Result&lt;/h2&gt;
+&lt;p&gt;This is where I show my work.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Project 1</title>
+      <link>https://example.org/posts/project1/</link>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://example.org/posts/project1/</guid>
+      <description>Ceramic design project</description>
+    </item>
+    <item>
+      <title>Project 2</title>
+      <link>https://example.org/posts/project2/</link>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://example.org/posts/project2/</guid>
+      <description>Ceramic design project</description>
+    </item>
+    <item>
+      <title>Project 3</title>
+      <link>https://example.org/posts/project3/</link>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://example.org/posts/project3/</guid>
+      <description>Ceramic design project</description>
+    </item>
+    <item>
+      <title>Project 4</title>
+      <link>https://example.org/posts/project4/</link>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://example.org/posts/project4/</guid>
+      <description>Ceramic design project</description>
+    </item>
+    <item>
+      <title>Project 5</title>
+      <link>https://example.org/posts/project5/</link>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://example.org/posts/project5/</guid>
+      <description>Ceramic design project</description>
+    </item>
+    <item>
+      <title>Project 6</title>
+      <link>https://example.org/posts/project6/</link>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://example.org/posts/project6/</guid>
+      <description>Ceramic design project</description>
+    </item>
+  </channel>
+</rss>
