@@ -3,10 +3,5 @@ languageCode = "en-us"
 title = "My Site"
 theme = "PaperMod"
 
-[params]
-ShowReadingTime = false
-ShowShareButtons = false
-ShowPostNavLinks = true
-ShowBreadCrumbs = true
-ShowCodeCopyButtons = true
-mainSections = ["posts"]
+relativeURLs = true
+canonifyURLs = false
