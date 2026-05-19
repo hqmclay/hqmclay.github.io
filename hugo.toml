@@ -1,6 +1,6 @@
 baseURL = "https://hqmclay.github.io/hqmclay.github.io/"
-locale = 'en-us'
-title = 'My New Hugo Project'
+languageCode = "en-us"
+title = "My Site"
 theme = "PaperMod"
 
 [params]
