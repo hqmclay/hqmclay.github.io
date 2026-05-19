@@ -1,4 +1,4 @@
-baseURL = 'https://hqmclay.github.io/repo/'
+baseURL = "https://hqmclay.github.io/hqmclay.github.io/"
 locale = 'en-us'
 title = 'My New Hugo Project'
 theme = "PaperMod"
